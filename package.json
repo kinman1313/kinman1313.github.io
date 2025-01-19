@@ -6,7 +6,6 @@
     "dev": "gulp",
     "prod": "gulp build"
   },
-  "author": "Long Do",
   "license": "MIT",
   "dependencies": {
     "browser-sync": "^2.26.12",

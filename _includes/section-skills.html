@@ -1,28 +1,164 @@
-<h1 class="title">{{site.skills_title}}</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --text-color: #333;
+            --light-bg: #f5f6fa;
+        }
 
-<div id="skills">
-  <input type="radio" id="all" name="filter" checked />
-  <label class="filter-button neumorphism-button" for="all">All</label>
-  <input type="radio" id="language" name="filter" />
-  <label class="filter-button neumorphism-button" for="language">Languages</label>
-  <input type="radio" id="framework" name="filter" />
-  <label class="filter-button neumorphism-button" for="framework">Frameworks</label>
-  <input type="radio" id="tool" name="filter" />
-  <label class="filter-button neumorphism-button" for="tool">Tools</label>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: var(--text-color);
+        }
 
-  {% for language in site.data.skills-languages %}
-    <div skill-type="language" skill-weight="{{language.weight}}" data-aos="zoom-in">
-      {{language.name}}
-    </div>
-  {% endfor %}
-  {% for framework in site.data.skills-frameworks %}
-    <div skill-type="framework" skill-weight="{{framework.weight}}" data-aos="zoom-in">
-      {{framework.name}}
-    </div>
-  {% endfor %}
-  {% for tool in site.data.skills-tools %}
-    <div skill-type="tool" skill-weight="{{tool.weight}}" data-aos="zoom-in">
-      {{tool.name}}
-    </div>
-  {% endfor %}
-</div>
+        nav {
+            background-color: var(--primary-color);
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--secondary-color);
+        }
+
+        .hero {
+            background-color: var(--light-bg);
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .hero h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: var(--primary-color);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 1rem auto;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .section {
+            margin-bottom: 3rem;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .project-card {
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background-color: var(--secondary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #2980b9;
+        }
+
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" id="home">
+        <h1>Your Name</h1>
+        <p>Software Developer | Problem Solver | Tech Enthusiast</p>
+        <a href="resume.html" class="btn">View Resume</a>
+    </section>
+
+    <main class="content">
+        <section class="section" id="projects">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <h3>Project 1</h3>
+                    <p>Description of your first project. What problems did it solve? What technologies did you use?</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Project 2</h3>
+                    <p>Description of your second project. Highlight your role and the impact it had.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <h2>About Me</h2>
+            <p>Share your professional journey, interests, and what drives you. What makes you unique as a developer?</p>
+        </section>
+
+        <section class="section" id="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out!</p>
+            <a href="mailto:your.email@example.com" class="btn">Email Me</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
