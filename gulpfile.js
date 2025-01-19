@@ -90,7 +90,8 @@ function jekyll(done) {
         '--config=_config.yml,_config_dev.yml'
       ],
       {
-        stdio: 'inherit'
+        stdio: 'inherit',
+        shell: true
       }
     )
     .on('close', done);

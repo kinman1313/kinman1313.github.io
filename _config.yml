@@ -7,8 +7,7 @@ title: The Office Of Kevin Inman
 description: Stop in, chat, read a blog or two, or even book some time to chat 1-1
 # baseurl: The subpath of your site
 # > set this to "", if you renamed the repository to <user>.github.io
-baseurl: "/https://kinman1313.github.io"
-
+baseurl: ""
 # LANDING PAGE
 # username: This will displayed on the landing page as your name.
 username: Kevin Inman
@@ -23,7 +22,7 @@ email: kevin.inman@gmail.com
 github_username: kinman1313
 facebook: kinman1313
 linkedin_username: kinman1313
-X_username: kinman1313
+twitter_username: kinman1313
 
 # ABOUT ME SECTION
 # show_aboutme_card:
@@ -33,27 +32,24 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: A little info about me
-
+about_me_description: Technology Executive | AI & Cloud Transformation | SVP, VP, CTO | Crisis Leadership & Digital Innovation | Keynote Speaker & Thought Leader on AI, Leadership & Digital Transformation
 # SKILLS SECTION
 # show_skills_card:
 # > setting this to true, will display the Skills section
 # > setting this to false, will omit the Skills section
-show_skills_card: true
+show_skills_card: false
 # about_me_title: The will be displayed as the title in the Skills section
 skills_title: Skills
-
 # TIMELINE SECTION
 # show_timeline_card:
 # > setting this to true, will display the Timeline section
 # > setting this to false, will omit the Timeline section
-show_timeline_card: true
+show_timeline_card: false
 # timeline_title: The will be displayed as the title in the Timeline section
 timeline_title: Background and Experience
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
 cv_download_link: https://docs.google.com/document/d/1OHjCta9craIdxLW7VpMPFQ45w25QDX_347zqSD4R_6I/edit?usp=sharing
-
 # PROJECTS SECTION
 # show_projects_card:
 # > setting this to true, will display the Projects section
@@ -85,7 +81,7 @@ contact_description: How to get in touch
 # GITHUB-METADATA
 # Set this to your forked repository
 # > e.g. <user>/<user>.github.io
-repository: kinman1313/kinman1313.github.io
+repository: kinman1313.github.io
 projects:
   # > set this to pushed, if you want to sort your github repositories by time.
   # > set this to stars, if you want to sort your github repositories by stars.
