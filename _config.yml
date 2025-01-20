@@ -30,12 +30,12 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: Technology Executive | AI & Cloud Transformation | SVP, VP, CTO | Crisis Leadership & Digital Innovation | Keynote Speaker & Thought Leader on AI, Leadership & Digital Transformation
+about_me_description: I build, scale, and transform technology organizations to drive business innovation, AI-powered automation, and cloud optimization. With 20+ years of experience leading AI, cloud, and DevOps strategies for Fortune 500 companies, I specialize in designing systems that, Improve performance, Reduce clouud costs, and in parallel, we continue to increase cybersecurity resilience & risk mitigation
 # SKILLS SECTION
 # show_skills_card:
 # > setting this to true, will display the Skills section
 # > setting this to false, will omit the Skills section
-show_skills_card: true
+show_skills_card: false
 # about_me_title: The will be displayed as the title in the Skills section
 skills_title: Skills
 # TIMELINE SECTION
@@ -47,7 +47,7 @@ show_timeline_card: true
 timeline_title: Background and Experience
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
-cv_download_link: https://docs.google.com/document/d/1OHjCta9craIdxLW7VpMPFQ45w25QDX_347zqSD4R_6I/edit?usp=sharing
+cv_download_link: https://bit.ly/InmanResume
 # PROJECTS SECTION
 # show_projects_card:
 # > setting this to true, will display the Projects section
@@ -86,7 +86,7 @@ projects:
     # archived:
     # > setting this to true, will exclude archived repositories
     # > setting this to false, will also display archived repositories
-    archived: true
+    archived: false
     # forks:
     # > setting this to true, will exclude forked repositories
     # > setting this to false, will also display forked repositories
@@ -95,13 +95,11 @@ projects:
     projects:
     # - repo1-to-be-excluded
     # - repo2-to-be-excluded
-
 # GOOGLE-ANALYTICS
 # Set the id, if you want to track your website with Google Analytics
 # > set this to "", if you do not want to track with Google Analytics
 google-analytics:
   id: "G-YT59WFZTLM"
-
 ### END OF VALUES YOU SHOULD CHANGE ###
 
 plugins:

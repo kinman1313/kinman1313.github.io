@@ -43,11 +43,11 @@
   title-url: https://aws.com/
   date: Dec 2018 - Sep 2020
   subtitle: Senior Manager Big Data | ML | AI
-  tags: 
-    - Deep Racer
-    - Bedrock
-    - Sagemaker
-    - Athena
+  tags:
+    - tag: Deep Racer
+    - tag: Bedrock
+    - tag: Sagemaker
+    - tag: Athena
   timeline-side: left
 
 - title: AppDynamics | Cisco
@@ -82,14 +82,14 @@
     - tag: Architecture and Systems Design
     - tag: Observability and Monitoring
   timeline-side: right
-  
+
 - title: Apple
   title-url: https://apple.com/
   date: Dec 2019 - Mar 2012
   subtitle: Principal Engineer
   tags:
-    - MySQL
-    - Systems Architecture
-    - Cloud Migration and Design
-    - xServe
+    - tag: MySQL
+    - tag: Systems Architecture
+    - tag: Cloud Migration and Design
+    - tag: xServe
   timeline-side: left
