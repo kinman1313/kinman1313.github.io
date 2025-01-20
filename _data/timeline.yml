@@ -17,45 +17,79 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: airbnb
-  title-url: https://example.com/
-  date: Sep 2019 - Present
-  subtitle: Fullstack Developer
+- title: Fannie Mae
+  title-url: https://fanniemae.com/
+  date: Jan 2022 - Oct 2024
+  subtitle: Senior Director DevOPS SRE
   tags:
-    - tag: React
-    - tag: Javascript
-    - tag: Ruby
-    - tag: Rails
-  timeline-side: right
-
-- title: Google
-  title-url: https://example.com/
-  date: Mar 2019 - Sep 2019
-  subtitle: Software Engineer as Intern
-  tags:
-    - tag: Flutter
-    - tag: Dart
-    - tag: Keycloak
-  timeline-side: right
-
-- title: Super University
-  title-url: https://example.com/
-  date: 2017 - 2019
-  subtitle: M.Sc. Computer Science
+    - tag: AWS
+    - tag: Kubernetes
+    - tag: Security
+    - tag: SRE
   timeline-side: left
 
-- title: Facebook
-  title-url: https://example.com/
-  date: Sep 2017 - Mar 2019
-  subtitle: Front-End Developer as Intern
+- title: Order My Gear
+  title-url: https://ordermygear.com/
+  date: Dec 2020 - Jan 2022
+  subtitle: VP Architecture & SRE
   tags:
+    - tag: Google Cloud
     - tag: React
-    - tag: Node
-    - tag: Javascript
+    - tag: Kubernetes
+    - tag: Infrastructure Design
   timeline-side: right
 
-- title: Super University
-  title-url: https://example.com/
-  date: 2014 - 2017
-  subtitle: B.A. Computer Science
+- title: AWS
+  title-url: https://aws.com/
+  date: Dec 2018 - Sep 2020
+  subtitle: Senior Manager Big Data | ML | AI
+  tags: 
+    - Deep Racer
+    - Bedrock
+    - Sagemaker
+    - Athena
+  timeline-side: left
+
+- title: AppDynamics | Cisco
+  title-url: https://www.Appdynamics.com
+  date: Aug 2014 - May 2018
+  subtitle: Senior Manager DevOPS SRE Architecture
+  tags:
+    - tag: Observability
+    - tag: AWS
+    - tag: Machine Learning
+    - tag: MySQL
+  timeline-side: right
+
+- title: eBay PayPal
+  title-url: https://ebay.com/
+  date: May 2013 - Aug 2014
+  subtitle: Senior Manager Technical Operations Capacity Enggineering
+  tags:
+    - tag: MySQL
+    - tag: System Design
+    - tag: Cloud Migration
+    - tag: DevOPS SRE
+  timeline-side: left
+
+- title: Hewlett Packard
+  title-url: https://hp.com/
+  date: May 2012 - May 2013
+  subtitle: Head Of Global Perromance And Capacity Planning
+  tags:
+    - tag: APM
+    - tag: DB2 and MySQL
+    - tag: Architecture and Systems Design
+    - tag: Observability and Monitoring
+  timeline-side: right
+  
+- title: Apple
+  title-url: https://apple.com/
+  date: Dec 2019 - Mar 2012
+  subtitle: Principal Engineer
+  tags:
+    - MySQL
+    - Systems Architecture
+    - Cloud Migration and Design
+    - xServe
   timeline-side: left
