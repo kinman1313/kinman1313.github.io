@@ -4,7 +4,7 @@
 # title: This will be displayed as the website's name in your browser tab.
 title: The Office Of Kevin Inman
 # description: This will be meta HTML tag content. This can be ignored.
-description: Stop in, chat, read a blog or two, or even book some time to chat 1-1
+description: tech blogs, my resume, tech talk, kevin inman ai resume, machine learning discussions, llm in depth
 # baseurl: The subpath of your site
 # > set this to "", if you renamed the repository to <user>.github.io
 baseurl: ""
@@ -37,7 +37,7 @@ about_me_description: Technology Executive | AI & Cloud Transformation | SVP, VP
 # show_skills_card:
 # > setting this to true, will display the Skills section
 # > setting this to false, will omit the Skills section
-show_skills_card: false
+show_skills_card: true
 # about_me_title: The will be displayed as the title in the Skills section
 skills_title: Skills
 # TIMELINE SECTION
