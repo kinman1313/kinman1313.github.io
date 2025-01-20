@@ -1,5 +1,4 @@
 ### VALUES YOU SHOULD CHANGE ###
-
 # GENERAL SITE SETTINGS
 # title: This will be displayed as the website's name in your browser tab.
 title: The Office Of Kevin Inman
@@ -23,7 +22,6 @@ github_username: kinman1313
 facebook: kinman1313
 linkedin_username: kinman1313
 twitter_username: kinman1313
-
 # ABOUT ME SECTION
 # show_aboutme_card:
 # > setting this to true, will display the About Me section
@@ -67,7 +65,6 @@ projects_title: Projects
 show_os_projects: false
 # os_projects_title: The will be displayed as the title of your open source projects
 os_projects_title: Open Source Projects
-
 # CONTACT SECTION
 # show_contact_card:
 # > setting this to true, will display the Contact section
@@ -77,7 +74,6 @@ show_contact_card: true
 contact_title: Contact
 # contact_description: This will be displayed under the title.
 contact_description: How to get in touch
-
 # GITHUB-METADATA
 # Set this to your forked repository
 # > e.g. <user>/<user>.github.io
