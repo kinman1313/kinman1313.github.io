@@ -3,7 +3,7 @@
     "number": {
       "value": 39,
       "density": {
-        "enable": true,
+        "enable": false,
         "value_area": 800
       }
     },
@@ -21,7 +21,7 @@
       }
     },
     "opacity": {
-      "value": 9
+      "value": 7
       "random": true,
       "anim": {
         "enable": false,
