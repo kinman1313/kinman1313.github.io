@@ -21,7 +21,7 @@
       }
     },
     "opacity": {
-      "value": 9,
+      "value": 6,
       "random": true,
       "anim": {
         "enable": false,
@@ -31,7 +31,7 @@
       }
     },
     "size": {
-      "value": 4
+      "value": 6
       "random": true,
       "anim": {
         "enable": false,
