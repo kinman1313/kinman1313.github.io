@@ -28,9 +28,9 @@ twitter_username: kinman1313
 # > setting this to false, will omit the About Me section
 show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
-about_me_title: About Me
+about_me_title: My Background
 # about_me_description: This will be displayed under the title.
-about_me_description: I build, scale, and transform technology organizations to drive business innovation, AI-powered automation, and cloud optimization. With 20+ years of experience leading AI, cloud, and DevOps strategies for Fortune 500 companies, I specialize in designing systems that, Improve performance, Reduce clouud costs, and in parallel, we continue to increase cybersecurity resilience & risk mitigation
+about_me_description: I build, scale, and transform technology organizations to drive business innovation, AI-powered automation, and cloud optimization. Notable experience leading AI, cloud, and DevOps strategies for Fortune 500 companies, I specialize in designing systems that, Improve performance, Reduce clouud costs, and in parallel, we continue to increase cybersecurity resilience & risk mitigation
 # SKILLS SECTION
 # show_skills_card:
 # > setting this to true, will display the Skills section
@@ -47,7 +47,7 @@ show_timeline_card: true
 timeline_title: Background and Experience
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
-cv_download_link: https://bit.ly/InmanResume
+cv_download_link: https://docs.google.com/document/d/1MZCFGkFcsjpybB92nD3il8aQz50hS3N9-IY1iPnM1-Y/edit?usp=sharing
 # PROJECTS SECTION
 # show_projects_card:
 # > setting this to true, will display the Projects section
@@ -77,7 +77,7 @@ contact_description: How to get in touch
 # GITHUB-METADATA
 # Set this to your forked repository
 # > e.g. <user>/<user>.github.io
-repository: kinman1313.github.io
+repository: kinman1313/kinman1313.github.io
 projects:
   # > set this to pushed, if you want to sort your github repositories by time.
   # > set this to stars, if you want to sort your github repositories by stars.
