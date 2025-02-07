@@ -22,6 +22,41 @@ $card-bg-color: linear-gradient(
 );
 $primary-color: #dc2d1e73;
 
+// Responsive design for user section
+@media (max-width: 600px) {
+  .user {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+// Additional CSS for your page elements
+.user-details {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.user {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2em;
+}
+
+.tech {
+  flex: 1;
+  padding: 1em;
+  text-align: center;
+}
+
+.tech h2 {
+  margin-bottom: 0.5em;
+}
+
+.tech i {
+  font-size: 3em;
+  margin: 0.5em;
+}
+
 /* General */
 
 html {
