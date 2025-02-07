@@ -3,7 +3,7 @@
     "number": {
       "value": 222,
       "density": {
-        "enable": false,
+        "enable": true,
         "value_area": 1000
       }
     },
@@ -36,7 +36,7 @@
       "anim": {
         "enable": true,
         "speed": 7,
-        "size_min": .3,
+        "size_min": .5,
         "sync": true
       }
     },
