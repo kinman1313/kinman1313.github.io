@@ -9,6 +9,12 @@
   <title>{{ site.title }}</title>
   <meta name="description" content="{{ site.description }}">
 
+  <!-- Open Graph meta tags for better social media integration -->
+  <meta property="og:title" content="{{ site.title }}" />
+  <meta property="og:description" content="{{ site.description }}" />
+  <meta property="og:image" content="{{ "/assets/images/og-image.png" | prepend: site.baseurl }}" />
+  <meta property="og:url" content="{{ site.url }}" />
+
   <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/favicon/apple-touch-icon.png" | prepend: site.baseurl }}">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicon/favicon-32x32.png" | prepend: site.baseurl }}">
   <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/favicon/favicon-16x16.png" | prepend: site.baseurl }}">
@@ -17,8 +23,8 @@
   <link rel="stylesheet" href="{{ "/assets/css/main.min.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/assets/css/vendors.min.css" | prepend: site.baseurl }}">
 
-  <script src="{{ "/assets/js/vendors.min.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ "/assets/js/app.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/assets/js/vendors.min.js" | prepend: site.baseurl }}" defer></script>
+  <script src="{{ "/assets/js/app.min.js" | prepend: site.baseurl }}" defer></script>
 </head>
 
 <body>
@@ -31,33 +37,36 @@
     </div>
   </div>
   {% include landing-page.html %}
-  <div class="layout">
-    {%if site.show_aboutme_card %}
-      <section class="card neumorphism-card-big">
+  <header>
+    <!-- Include navigation and branding here if needed -->
+  </header>
+  <main class="layout" role="main">
+    {% if site.show_aboutme_card %}
+      <section class="card neumorphism-card-big" role="region" aria-labelledby="about-me-section">
         {% include section-aboutme.html %}
       </section>
     {% endif %}
-    {%if site.show_skills_card %}
-      <section class="card neumorphism-card-big">
+    {% if site.show_skills_card %}
+      <section class="card neumorphism-card-big" role="region" aria-labelledby="skills-section">
         {% include section-skills.html %}
       </section>
     {% endif %}
-    {%if site.show_timeline_card %}
-      <section class="card neumorphism-card-big">
+    {% if site.show_timeline_card %}
+      <section class="card neumorphism-card-big" role="region" aria-labelledby="timeline-section">
         {% include section-timeline.html %}
       </section>
     {% endif %}
-    {%if site.show_projects_card %}
-      <section class="card neumorphism-card-big">
+    {% if site.show_projects_card %}
+      <section class="card neumorphism-card-big" role="region" aria-labelledby="projects-section">
         {% include section-projects.html %}
       </section>
     {% endif %}
-    {%if site.show_contact_card %}
-    <section class="card neumorphism-card-big">
-      {% include section-contact.html %}
-    </section>
+    {% if site.show_contact_card %}
+      <section class="card neumorphism-card-big" role="region" aria-labelledby="contact-section">
+        {% include section-contact.html %}
+      </section>
     {% endif %}
-  </div>
+  </main>
   {% include footer.html %}
 </body>
 </html>
