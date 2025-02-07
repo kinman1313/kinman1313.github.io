@@ -1,7 +1,7 @@
 {
   "particles": {
     "number": {
-      "value": 88,
+      "value": 111,
       "density": {
         "enable": true,
         "value_area": 800
@@ -27,16 +27,16 @@
         "enable": true,
         "speed": 3,
         "opacity_min": 0.2,
-        "sync": false
+        "sync": true
       }
     },
     "size": {
-      "value": 3,
+      "value": 2,
       "random": true,
       "anim": {
         "enable": true,
         "speed": 7,
-        "size_min": .5,
+        "size_min": .3,
         "sync": false
       }
     },
